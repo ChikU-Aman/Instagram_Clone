@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
     },
     profilePic:(activeTab = '') =>({
         borderRadius: 50,
-        borderWidth: activeTab ==='Profile'? 2 : 0,
+        borderWidth: activeTab ==='Profile'? 3 : 0,
         borderColor: activeTab === 'Profile'?'#ff8501':'#fff',
     }),
 })
