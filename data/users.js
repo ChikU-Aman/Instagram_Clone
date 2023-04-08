@@ -1,0 +1,30 @@
+export const USERS = [
+    {
+        user:'aman',
+        image:'https://1fid.com/wp-content/uploads/2022/06/cartoon-profile-picture-2-520x520.jpg'
+    },
+    {
+        user:'doaremon',
+        image:'https://1fid.com/wp-content/uploads/2022/06/cartoon-profile-picture-6-520x520.jpg'
+    },
+    {
+        user:'avatar',
+        image:'https://1fid.com/wp-content/uploads/2022/06/cartoon-profile-picture-13-520x520.jpg'
+    },
+    {
+        user:'cuteee',
+        image:'https://1fid.com/wp-content/uploads/2022/06/cartoon-profile-picture-25-520x520.jpg'
+    },
+    {
+        user:'bubu',
+        image:'https://e1.pxfuel.com/desktop-wallpaper/214/933/desktop-wallpaper-bubu-dudu-bubu.jpg'
+    },
+    {
+        user:'shinchan',
+        image:'https://e0.pxfuel.com/wallpapers/554/592/desktop-wallpaper-shinchan-for-shinchan-bag.jpg'
+    },
+    {
+        user:'king',
+        image:'https://1fid.com/wp-content/uploads/2022/06/cartoon-profile-picture-38-520x520.jpg'
+    },
+]
