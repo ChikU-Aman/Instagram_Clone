@@ -13,7 +13,7 @@ const postFooterIcons = [
     },
     {
         name: 'Share',
-        imageUrl: 'https://img.icons8.com/external-vitaliy-gorbachev-fill-vitaly-gorbachev/512/external-paper-plane-social-media-vitaliy-gorbachev-fill-vitaly-gorbachev.png'
+        imageUrl: 'https://image.pngaaa.com/491/3742491-middle.png'
     },
     {
         name: 'Save',
