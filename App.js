@@ -8,12 +8,12 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-import HomeScreen from './screens/HomeScreen';
+import NewPostScreen from './screens/NewPostScreen';
 
 
 const App = () => {
   return (
-    <HomeScreen/>
+    <NewPostScreen />
   );
 };
 

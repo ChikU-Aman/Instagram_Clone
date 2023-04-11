@@ -17,7 +17,7 @@ export const bottomTabIcons =
         {
             name: 'Add',
             active: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/plus-2-math.png',
-            inactive: 'https://img.icons8.com/fluency-systems-regular/48/ffffff/shopping-bag-full.png'
+            inactive: 'https://img.icons8.com/fluency-systems-regular/60/ffffff/plus-2-math.png'
         },
         {
             name: 'Reel',

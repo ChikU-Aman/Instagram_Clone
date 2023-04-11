@@ -4,8 +4,8 @@ import AddNewPost from '../components/newPost/AddNewPost'
 
 const NewPostScreen = () => {
     return (
-        <SafeAreaView style={{ backgroundColor: 'black', flex : 1 }}>
-            <AddNewPost/>
+        <SafeAreaView style={{ backgroundColor: 'black', flex: 1 }}>
+            <AddNewPost />
         </SafeAreaView>
     )
 }
