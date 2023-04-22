@@ -14,21 +14,27 @@ const uploadPostSchema = Yup.object().shape({
 
 });
 
-const FormikPostUploader = () => {
+const FormikPostUploader = ({navigation}) => {
     const [thumbnailUrl, setThumbnailUrl] = useState(PLACEHOLDER_IMG)
     return (
         <Formik
             initialValues={{ caption: '', imageUrl: '' }}
-            onSubmit={(values) => console.log(values)}
+            onSubmit={(values) => {
+                console.log(values)
+                console.log('Your post was submitted successfully')
+                navigation.goBack()
+            }}
             validationSchema={uploadPostSchema}
             validateOnMount={true}
         >
             {({ handleBlur, handleChange, handleSubmit, values, errors, isValid }) =>
                 <>
                     <View style={{ margin: 20, justifyContent: 'space-between', flexDirection: 'row' }}>
-                        <Image source={{ uri: PLACEHOLDER_IMG }} style={{ width: 100, height: 100 }} />
+                        <Image source={{ uri: thumbnailUrl ? thumbnailUrl : PLACEHOLDER_IMG }} style={{ width: 100, height: 100 }} />
                         <View style={{flex:1, marginLeft:15}}>
-                            <TextInput style={{ color: 'white', fontSize: 20 }}
+                            <TextInput
+
+                                style={{ color: 'white', fontSize: 20 }}
                                 placeholder='Write a caption...'
                                 placeholderTextColor='grey'
                                 multiline={true}
@@ -39,6 +45,7 @@ const FormikPostUploader = () => {
 
                     </View>
                     <TextInput
+                        onChange={(e)=>setThumbnailUrl(e.nativeEvent.text)}
                         style={{ color: 'white', fontSize: 18 }}
                         placeholder='Enter Image Url'
                         placeholderTextColor='grey'

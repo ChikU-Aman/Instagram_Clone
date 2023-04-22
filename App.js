@@ -9,11 +9,12 @@ import {
   View,
 } from 'react-native';
 import NewPostScreen from './screens/NewPostScreen';
+import SignedInStack from './components/newPost/navigation';
 
 
 const App = () => {
   return (
-    <NewPostScreen />
+    <SignedInStack />
   );
 };
 
